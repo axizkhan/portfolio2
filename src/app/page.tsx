@@ -4,7 +4,6 @@ import { House } from "lucide-react";
 import { Folder } from "lucide-react";
 import { Briefcase } from "lucide-react";
 import { Wrench } from "lucide-react";
-
 import { GraduationCap } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 import { Mail } from "lucide-react";
@@ -538,7 +537,7 @@ function Page() {
                   className="hover:text-[#84CC16] transition-colors cursor-target"
                   onClick={() => {
                     window.location.href =
-                      "https://linkedin.com/aziz-khanji-2a5360240?utm_source=share_via&utm_content=profile&utm_medium=member_android";
+                      "https://www.linkedin.com/in/aziz-khanji-2a5360240?utm_source=share_via&utm_content=profile&utm_medium=member_android";
                   }}>
                   {/* LinkedIn Icon */}
                   <svg
