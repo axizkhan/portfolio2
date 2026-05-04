@@ -82,8 +82,8 @@ const projectData = [
       "Built a MERN stack learning platform offering tutorials across multiple programming languages and technologies. Implemented secure authentication/authorization, structured course content management, and a user-friendly interface for accessing coding tutorials efficiently.",
     technologies: ["React", "MongoDB", "CSS", "Node.js", "Express"],
     links: [
-      { type: "github", url: "https://github.com/yourusername/chat-engine" },
-      { type: "link", url: "https://code-verse-n02f.onrender.com/" },
+      { type: "github", url: "https://github.com/axizkhan/CodeVerse" },
+      { type: "link", url: "https://codeversebyaxiz.netlify.app/" },
     ],
     status: "live",
   },
@@ -586,7 +586,7 @@ function Page() {
 
         <section className="flex flex-col justify-center items-center sm:w-125 lg:w-[60%] transition-all duration-300 gap-30 mt-10">
           <section
-            className={`flex flex-col ${navSelect === "home" ? "opacity-100" : "opacity-0"} px-5 py-3 lg:py-6 gap-4 w-full border rounded-2xl lg:justify-center bg-[#0A0A0B]/60 backdrop-blur-xl border-white/10 shadow-[0_0_40px_rgba(217,70,239,0.08)] transition-all duration-300 lg:min-h-[80vh] min-h-screen content`}
+            className={`flex flex-col ${navSelect === "home" ? "opacity-100" : "opacity-0"} px-5 py-3 lg:py-6 gap-4 w-full border rounded-2xl lg:justify-center bg-[#0A0A0B]/60 backdrop-blur-xl border-white/10 shadow-[0_0_40px_rgba(217,70,239,0.08)] transition-all duration-300 lg:min-h-[80vh]  md:min-h-screen content`}
             id="home">
             {/* Section Header with Lime Pop Underline */}
             <div className="relative self-start">
@@ -698,7 +698,7 @@ function Page() {
             </div>
           </section>
           <section
-            className={`w-full ${navSelect === "experience" ? "opacity-100" : "opacity-0"} flex flex-col gap-6 transition-all duration-500 content min-h-screen `}
+            className={`w-full ${navSelect === "experience" ? "opacity-100" : "opacity-0"} flex flex-col gap-6 transition-all duration-500 content md:min-h-screen `}
             id="experience">
             {/* Header Section with Magenta Glow */}
             <div className="relative self-start">
@@ -756,7 +756,7 @@ function Page() {
             </div>
           </section>
           <section
-            className={`w-full flex flex-col gap-6 transition-all duration-500 content min-h-screen ${navSelect === "projects" ? "opacity-100" : "opacity-0"}`}
+            className={`w-full flex flex-col gap-6 transition-all duration-500 content md:min-h-screen ${navSelect === "projects" ? "opacity-100" : "opacity-0"}`}
             id="projects">
             {/* Header Section with Lime Glow */}
             <div className="relative self-start">
@@ -859,7 +859,7 @@ function Page() {
             </div>
           </section>
           <section
-            className={` ${navSelect === "skills" ? "opacity-100" : "opacity-0"} w-full flex flex-col gap-6 transition-all duration-500 rounded-2xl lg:justify-center min-h-screen  content`}
+            className={` ${navSelect === "skills" ? "opacity-100" : "opacity-0"} w-full flex flex-col gap-6 transition-all duration-500 rounded-2xl lg:justify-center md:min-h-screen  content`}
             id="skills">
             {/* Header with Lime Neon Underline */}
             <div className="relative self-start">
@@ -920,7 +920,7 @@ function Page() {
           </section>
 
           <section
-            className={`w-full flex flex-col gap-6 transition-all duration-500 content min-h-screen ${navSelect === "education" ? "opacity-100" : "opacity-0"}`}
+            className={`w-full flex flex-col gap-6 transition-all duration-500 content md:min-h-screen ${navSelect === "education" ? "opacity-100" : "opacity-0"}`}
             id="education">
             {/* Header Section with Lime Glow */}
             <div className="relative self-start">
@@ -971,7 +971,7 @@ function Page() {
             </div>
           </section>
           <section
-            className={`w-full ${navSelect === "contact" ? "opacity-100 " : "opacity-0 "} flex flex-col gap-8 transition-all duration-500 min-h-screen content translate-2  `}
+            className={`w-full ${navSelect === "contact" ? "opacity-100 " : "opacity-0 "} flex flex-col gap-8 transition-all duration-500 md:min-h-screen content translate-2  `}
             id="contact">
             {/* Header Section */}
             <div className="flex flex-col w-full gap-5 border p-5 rounded-2xl border-white/10 bg-[#0a0a0b]/40">
