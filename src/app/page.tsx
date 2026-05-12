@@ -58,7 +58,7 @@ const projectData = [
       { type: "github", url: "https://github.com/axizkhan/CodeVerse" },
       {
         type: "link",
-        url: "https://code-verse-eight-pi.vercel.app/tutorials",
+        url: "https://code-verse-eight-pi.vercel.app",
       },
     ],
     status: "live",
