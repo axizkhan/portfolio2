@@ -139,7 +139,7 @@ const experienceData = [
   {
     companyName: "Helper Setu",
     jobRole: "Full Stack Engineer Intern",
-    duration: "August/2025 - Present",
+    duration: "January/2025 - Present",
     jobDescription:
       "Leading the transition from a monolithic architecture to a microservices-based system. Responsible for building real-time data pipelines and optimizing LLM-based internal tools to improve developer productivity by 40%.",
     technologies: [
