@@ -82,10 +82,10 @@ const projectData = [
       "TurboRepo",
     ],
     links: [
-      {
-        type: "github",
-        // url: "https://github.com/axizkhan/commication-library",
-      },
+      // {
+      //   type: "github",
+      //   url: "https://github.com/axizkhan/commication-library",
+      // },
       // { type: "live", url: "https://quantum-shop.vercel.app" },
     ],
     status: "developing",
