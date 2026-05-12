@@ -58,7 +58,7 @@ const projectData = [
       { type: "github", url: "https://github.com/axizkhan/CodeVerse" },
       {
         type: "link",
-        url: "http://codeverse.us-east-1.elasticbeanstalk.com/tutorials",
+        url: "https://code-verse-eight-pi.vercel.app/tutorials",
       },
     ],
     status: "live",
@@ -75,7 +75,7 @@ const projectData = [
     technologies: [
       "React",
       "Express",
-      "MongoDb",
+"      "MongoDb",
       "Node.js",
       "Tailwind CSS",
       "RabbitMQ",
