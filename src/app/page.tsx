@@ -40,7 +40,26 @@ const projectData = [
     ],
     links: [
       { type: "github", url: "https://github.com/axizkhan/splitwise_backend" },
-      { type: "live", url: "https://splitlybyaxiz.netlify.app/" },
+      { type: "live", url: "https://splitwise-frontend-jade.vercel.app/" },
+    ],
+    status: "live",
+  },
+  {
+    id: 3,
+    name: "Code-Verse",
+    img: {
+      url: "./codeVerse.png",
+      alt: "Nexus Ai Orchestrator",
+    },
+    description:
+      "Built a MERN stack learning platform offering tutorials across multiple programming languages and technologies. Implemented secure authentication/authorization, structured course content management, and a user-friendly interface for accessing coding tutorials efficiently.",
+    technologies: ["React", "MongoDB", "CSS", "Node.js", "Express"],
+    links: [
+      { type: "github", url: "https://github.com/axizkhan/CodeVerse" },
+      {
+        type: "link",
+        url: "http://codeverse.us-east-1.elasticbeanstalk.com/tutorials",
+      },
     ],
     status: "live",
   },
@@ -65,28 +84,13 @@ const projectData = [
     links: [
       {
         type: "github",
-        url: "https://github.com/axizkhan/commication-library",
+        // url: "https://github.com/axizkhan/commication-library",
       },
       // { type: "live", url: "https://quantum-shop.vercel.app" },
     ],
     status: "developing",
   },
-  {
-    id: 3,
-    name: "Code-Verse",
-    img: {
-      url: "./codeVerse.png",
-      alt: "Nexus Ai Orchestrator",
-    },
-    description:
-      "Built a MERN stack learning platform offering tutorials across multiple programming languages and technologies. Implemented secure authentication/authorization, structured course content management, and a user-friendly interface for accessing coding tutorials efficiently.",
-    technologies: ["React", "MongoDB", "CSS", "Node.js", "Express"],
-    links: [
-      { type: "github", url: "https://github.com/axizkhan/CodeVerse" },
-      { type: "link", url: "https://codeversebyaxiz.netlify.app/" },
-    ],
-    status: "live",
-  },
+
   {
     id: 4,
     name: "Mobi-Tech",
