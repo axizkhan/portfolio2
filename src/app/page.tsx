@@ -75,7 +75,7 @@ const projectData = [
     technologies: [
       "React",
       "Express",
-"      "MongoDb",
+      "MongoDb",
       "Node.js",
       "Tailwind CSS",
       "RabbitMQ",
